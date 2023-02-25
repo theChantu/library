@@ -198,6 +198,6 @@ footer a:hover {
 }
 
 #book-creator form input:focus {
-    transition: 1.0s;
+    transition: 1s;
     outline: none;
 }
