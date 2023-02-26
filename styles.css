@@ -21,7 +21,9 @@ main,
 footer,
 .book,
 .book-buttons,
-#book-creator form, #read-container, .book-info {
+#book-creator form,
+#read-container,
+.book-info {
     display: flex;
 }
 
@@ -104,6 +106,7 @@ nav button:hover {
     border-radius: 15px;
     padding: var(--card-padding);
     gap: 10px;
+    color: black;
 }
 
 .book-buttons {
@@ -206,5 +209,6 @@ footer a:hover {
 }
 
 #read-container {
+    align-items: center;
     gap: 5px;
 }
