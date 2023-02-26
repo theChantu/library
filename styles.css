@@ -21,7 +21,7 @@ main,
 footer,
 .book,
 .book-buttons,
-#book-creator form {
+#book-creator form, #read-container, .book-info {
     display: flex;
 }
 
@@ -130,8 +130,10 @@ nav button:hover {
 }
 
 .book-info {
+    flex-direction: column;
     font-size: x-large;
     text-align: center;
+    gap: 10px;
 }
 
 .green {
@@ -195,9 +197,14 @@ footer a:hover {
     border-radius: var(--button-border-radius);
     border: 1px solid rgb(180, 180, 180);
     text-indent: 3px;
+    width: 100%;
 }
 
 #book-creator form input:focus {
     transition: 1s;
     outline: none;
+}
+
+#read-container {
+    gap: 5px;
 }
