@@ -15,12 +15,14 @@ let bookchecked = false;
 const BOOKS = [];
 let userBook = null;
 
-// Book object
-function Book(author, title, pages, read) {
-    this.author = author;
-    this.title = title;
-    this.pages = pages;
-    this.read = read;
+// Book blueprint
+class Book {
+    constructor(author, title, pages, read) {
+        this.author = author;
+        this.title = title;
+        this.pages = pages;
+        this.read = read;
+    }
 }
 
 function getCheckboxInput() {
