@@ -1,8 +1,7 @@
-# **library [LIVE-VIEW](https://mrchantu.github.io/library/)**
-A library project I made for [The Odin Project](https://www.theodinproject.com/dashboard).
+# **Library [PREVIEW](https://mrchantu.github.io/library/)**
 
-## What does the code do?
-It generates every single object from the books array onto the page everytime you remove or make something read or not.
+## What is the purpose of this?
+This app lets you store books author names, title, and pages. That's it.
 
-## Time it took me to finish?
-7 hours.
+## How useless is this app?
+Very.
